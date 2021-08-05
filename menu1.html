@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Menu</title>
+    <style>
+    *{
+           box-sizing: border-box;
+       }
+        ul {
+            margin-top: 0px;
+            margin-right: 25px;
+        }
+        li{
+            list-style-type:none;
+            float:left;
+            color:black;
+            padding-left:15px;
+            padding-right:15px;
+            padding-bottom: 5px;
+        }
+        .btn1{
+            padding:6px;
+             font-size: 22px;
+             border-radius: 12px; 
+             background-color: lightgray;
+             color: black;
+        }
+         li:hover{
+            border-bottom:2px solid lightgray;
+    
+        }
+
+        .logo:hover{
+            border-bottom:2px solid black; 
+        }
+        .btn:hover{
+            border-bottom:2px solid black; 
+          }
+        .btn1:hover{
+            transform: scale(1.2); 
+         }
+   
+   
+   
+   
+   
+   
+    body{
+         background-color: black;
+     }
+     .container{
+            display:flex;
+            flex-wrap: wrap;
+            height: 250px;
+            margin-left: 50px;
+            margin-right: 50px;
+           
+        }
+        .container2{
+            display:flex;
+            flex-wrap: wrap;
+            height: 310px;
+            margin-left: 50px;
+            margin-right: 50px;
+           
+        }
+        .l1{ 
+            flex:70%;
+            background-color: whitesmoke;
+            color:gray;
+           
+        }
+        .r1{
+            flex:20%;
+            background-color: gray;
+        }
+        .heading{
+            color:whitesmoke;
+            font-size:45px;
+            margin-left: 50px;
+            padding-bottom: 20px;
+            padding-top: 40px;
+        }
+         /*footer*/
+     .footer{
+        background-color: rgba(11, 11, 11, 0.933);
+         color:white;
+         height:250px;
+         text-align: center;
+      }
+      .footer2{
+             text-align: center;
+             background-color:rgba(10, 10, 10, 0.966); 
+             padding: 5px;
+             }
+      .footcontainer{
+          float:left;
+          width:25%;
+      }
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 500px){
+            body{
+              box-sizing: border-box;
+              display: inline-block;
+          }
+          ul{
+              margin-left:30% ;
+              margin-right:40%;
+          }
+          li{
+              float: none;
+              text-align: center;
+              display: block;
+              padding-top: 10px;
+          }
+          .container{
+                height:100%;
+              display: inline-block;
+            }
+            .container2{
+                height:100%;
+              display: inline-block; 
+            }
+          .footer{
+              height: 100%;
+              font-size: 10%;
+          } 
+          .footer2{
+              height: 100%;
+              display:inline-block;
+              font-size: 10%;
+              text-align: center;
+              background-color: black;
+          }
+           
+          .footcontainer{
+              float: none;
+              width: 100%;
+             display: block;
+             text-align: center;
+             font-size: 15%;
+            }
+           
+           
+           
+           
+           
+           
+           
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div style="background-color: black;">
+        <header >
+        <div>  
+        <ul>
+           
+            <li class="logo" style="float:left;"><img src="https://i.ibb.co/SXVYMWj/logo1.jpg" alt="logo" style="height:80px;width:115px;padding-top: 10px;"> </li>
+            <li style="margin-top: 45px;"><a href="index.html"style="color: white; text-decoration: none;">HOME</a></li>  
+            <li style="margin-top: 45px;"><a href="menu1.html"style=" color: white;text-decoration: none; ">MENU</a></li>
+            <li  style="margin-top: 45px;"><a href="specials.html"style="color: white; text-decoration: none; ">SPECIALS</a></li>
+           
+            <li class="btn" style="margin-top: 35px;float: right;"><button  class="btn1">Download App</button></li>
+     
+        </ul>
+        </div>
+     </header>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <br><br><br><br><br><br><br><br>
+    <div class="heading">FAST FOODS</div>
+    <div class="container">
+        <div class="l1" style="padding:30px;">
+            <h1>BURGERS</h1>
+            <p>VEG BURGER     50/-</p>
+            <p>VEG CHEESE BURGER         60/-</p>
+            <p>VEG BURGER    75/-</p>
+           
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/g6cr3R8/burger-new.jpg" alt="burgers"style="width:100%;height:260px;"></img></div>
+    </div><br><br>
+    
+    <div class="container">
+        <div class="l1" style="padding:30px;">
+            <h1>PIZZA</h1>
+            <p>PLAIN CHEESE PIZZA    70/-</p>
+            <p>PANEER WRAPPED PIZZA         90/-</p>
+            <p>TIS SPECIAL PIZZA   100/-</p>
+           
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/2jRgJ8t/pizza.jpg" alt="pizza"style="width:100%;height:260px;"></img></div>
+    </div><br><br>
+    <div class="container">
+        <div class="l1" style="padding:30px;">
+            <h1>SANDWICH</h1>
+            <p>VEGGIE GRILL SANDWICH     55/-</p>
+            <p>CORN MAYO SANDWICH         65/-</p>
+            <p>PANEER TAKATAK SANDWICH  65/-</p>
+           
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/HztBYW9/sandwich.jpg" alt="sandwich"style="width:100%;height:260px;"></img></div>
+    </div><br><br>
+    
+    <div class="heading">STARTERS</div>
+    <div class="container">
+        <div class="l1" style="padding:30px;">
+            <h1>PANEER PAHADI TIKKA</h1>
+            <p>[6 pieces] </p><br>
+            <h2>Rs 150</h2>
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/Db6F7tB/paneer-tikka.jpg" alt="paneer-tikka"style="width:100%;height:260px;"></img></div>
+    </div><br><br>
+    <div class="container">
+        <div class="l1" style="padding:30px;">
+            <h1>HARA BHARA KEBAB</h1>
+            <p>[8 pieces] </p><br>
+            <h2>Rs 250</h2>
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/7rkTPtw/hara-bhara-kebab.jpg" alt="hara-bhara-kebab"style="width:100%;height:260px;"></img></div>
+    </div><br><br>
+    <div class="container">
+        <div class="l1" style="padding:30px;">
+            <h1>CORN TIKKI</h1>
+            <p>[8 pieces] </p><br>
+            <h2>Rs 250</h2>
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/0KR1fKQ/corn-tikki.jpg" alt="corn-tikki"style="width:100%;height:260px;"></img></div>
+    </div><br><br>
+   <div >
+   
+   
+   
+    <div class="heading">MENU[BOX]</div>
+   
+    
+    <div class="container2">
+        <div class="l1" style="padding:30px;">
+            <h1>VEGETARIAN FAMILY BOX</h1>
+        
+            <P>2 Starters (Hara Bhara Kebab, Paneer Ajwaini Tikka) 1 Dal Makhani</> 
+              <P>1 Main Course (Paneer Tikka Masala) 1 Veg Biryani 2 Laccha Paratha 
+              <p>2 Desserts Salad, Pickle, Raita, Chutney</p><br>
+            
+            <h2>Rs 849</h2>
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/DDzWzDj/vegetarian-family-box.jpg" alt="vegetarian-family-box" style="width:100%;height:290px;"></img></div>
+    </div><br><br>
+    
+   
+   
+  
+    <div class="container2">
+        <div class="l1" style="padding:30px">
+            <h1>PANEER TIKKA MASALA BOX</h1>
+            <p>Paneer Tikka Masala with garlic naan or Laccha Paratha</p><br>
+            <h2>Rs 179</h2>
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/BVwYzGT/paneer-tikka-masala-box.jpg" alt="paneer-tikka-masala-box" style="width:100%;height:290px;"></img></div>
+    </div><br><br>
+    </div>
+   
+    <div class="heading">MENU[COMBOS]</div>
+    
+        
+    <div class="container2">
+        <div class="l1" style="padding:30px;">
+            <h1>PANEER RARA COMBO</h1>
+        <P> Paneer rara served with a choice of jeera rice, laccha paratha or garlic
+    naan </P>
+     <P>(30 grams paneer with soya keema gravy ) (300 ml box ) with
+    jeera rice/lachha paratha (2),garlic naan (1) </P> <br>
+            <h2>Rs 280 </h2>
+        </div>
+        <div class="r1"><img src="https://i.ibb.co/KqwY97K/paneer-rara-combo.jpg" alt="paneer-rara-combo" style="width:100%;height:290px;"></img></div>
+    </div><br><br>
+    <div class="container2">
+        <div class="l1" style="padding:30px;">
+            <h1>BUTTER PANEER COMBO</h1>
+            <p>Butter paneer served with a choice of jeera rice, laccha paratha or garlic
+                naan </P>
+          <P> (30 grams paneer with soya keema gravy ) (300 ml) with jeera rice /Lachha Paratha (2) / 1 garlic
+                naan or 1 stuffed kulcha</P><br>
+            <h2>Rs 280</h2>
+        </div>
+        <div class="r1"></a><img src="https://i.ibb.co/kG0Rhb2/butter-paneer-combo.jpg" alt="butter-paneer-combo" style="width:100%;height:290px;"></img></div>
+    </div><br><br>
+    
+    <div class="footer">
+        <div class="footcontainer">
+           <h2 style="padding-top:15px; padding-left:15px;">Contact us to place an order</h2>
+    
+            <a href="theindianspoon30@gmail.com" class="fa fa-envelope fa-2x" target="_blank" style="text-decoration: none;font-size: 16px; padding-left:15px;padding-right:15px; padding-bottom:10px;text-align:center;color: white;">-theindianspoon30@gmail.com</a>
+          <br> <div>
+            <a href="#" class="fa fa-phone fa-2x" target="_blank" style="text-decoration: none; padding-left:15px;padding-right:15px;padding-top:8px;font-size: 16px;color: white;">-9999999999</a>  
+           </div>  
+        </div>
+       
+        <div class="footcontainer">
+           <h2 style="padding-top:15px; padding-left:15px;">Services</h2>
+           <p> Order</p>
+           <p> Fast Delivery</p>
+           <p> Track order</p>
+           <p> Cash on Delivery</p>
+        </div>
+    
+        <div class="footcontainer">
+            <h2 style="padding-top:15px; padding-left:15px;">For You</h2>
+            <p> Terms and Conditions</p>
+            <p> Refund and Funds </p>
+            <p> Privacy Policy</p>
+            <p> Offer Terms</p>
+         </div>
+    
+         <div class="footcontainer">
+            <h2 style="padding-top:15px; padding-left:15px;">Follow us on Social Media</h2>
+    <a href="https://www.instagram.com/_theindianspoon"  class="fa fa-instagram fa-2x" target="_blank" style=" text-decoration: none;padding-left:15px;padding-right:15px; color: white;"></a>
+     <a href="#" class="fa fa-whatsapp fa-2x" target="_blank" style=" text-decoration: none;padding-left:15px;padding-right:15px;color: white;"></a>
+         </div>
+        </div>
+    
+         <div class="footer2" style="color:white;">Copyright <em>&#169</em> THE INDIAN SPOON | All Rights Reserved </div>
+    
+       
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,386 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task</title>
+    <style>
+        /*navbar*/
+        *{
+            box-sizing: border-box;
+        }
+        ul {
+            margin-top: 0px;
+            margin-right: 25px;
+        }
+        li{
+            list-style-type:none;
+            float:left;
+            color:black;
+            padding-left:15px;
+            padding-right:15px;
+            padding-bottom: 5px;
+        }
+        .btn1{
+            padding:6px;
+             font-size: 22px;
+             border-radius: 12px; 
+             background-color: lightgray;
+             color: black;
+        }
+         li:hover{
+            border-bottom:2px solid lightgray;
+    
+        }
+
+        .logo:hover{
+            border-bottom:2px solid black; 
+        }
+        .btn:hover{
+            border-bottom:2px solid black; 
+          }
+        .btn1:hover{
+            transform: scale(1.2); 
+         }
+         
+         
+         
+         /*photo*/
+         .content{
+             position: relative;
+             
+         }
+         .cont{
+             position:absolute;
+             font-size: 35px;
+             color:white;
+             font-weight: bold;
+             text-align: center;
+             left:50%;
+             top:40%;
+             transform: translate(-50%,-40%);
+         }
+         .btn2{
+             background-color: black;
+             color:white;
+             padding:15px;
+             font-size: 35px;
+             border-radius: 15px;
+             margin-top: 35px;
+         }
+       .img2{
+         opacity:0.4;
+         height:auto;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;
+       }
+       .btn2:hover{
+           transform: scale(1.2);
+       }
+
+        /*content1*/
+        .flexcontainer1{
+            display: flex;
+            flex-wrap:wrap ;
+            height:600px;
+            background-color: rgba(10, 10, 10, 0.966) 
+        }
+        .l1{
+            flex:50%;
+            background-color: whitesmoke;
+            padding:30px;
+            height: 550px;
+            margin-top: 30px;
+         }
+         .r1{
+             flex:50%; 
+             margin-top: 55px;   
+         }
+        /*content2*/
+        .container{
+            width: 100%;
+            border-radius: 8px;
+            background-color: whitesmoke;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+            margin-bottom: 25px;
+        }
+        img{
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .text{
+            text-align: center;
+            color: gray;
+            font-weight: bold;
+            font-size: 22px;
+            padding:20px;
+        }
+        .container:hover{
+            transform: scale(1.1);
+        }
+       
+        table {
+         border-spacing: 40px 30px;
+         
+      }
+     
+     
+     
+      /*footer*/
+     .footer{
+        background-color: rgba(11, 11, 11, 0.933);
+         color:white;
+         height:250px;
+         text-align: center;
+      }
+      .footer2{
+             text-align: center;
+             background-color:rgba(10, 10, 10, 0.966); 
+             padding: 5px;
+             }
+      .footcontainer{
+          float:left;
+          width:25%;
+      }
+      
+      @media only screen and (max-width: 500px){
+          body{
+              box-sizing: border-box;
+              display: inline-block;
+          }
+          ul{
+              margin-left:30% ;
+              margin-right:40%;
+          }
+          li{
+              float: none;
+              text-align: center;
+              display: block;
+              padding-top: 10px;
+          }
+          
+          
+          
+          img{
+              width:100%;
+              height:100px;
+          }
+          table{
+              display:inline-block;
+          }
+          td{
+              width:100%;
+              margin-left: 10%;
+              margin-right:10%;
+          }
+          .flexcontainer1{
+              height:100%;
+              display: inline-block;
+              
+          }
+          .content{
+              height:400px;
+          }
+          .img2{
+              height: 400px;
+              width:70%;
+          }
+          .cont{
+              font-size: 25px;
+          }
+          .btn2{
+              font-size: 20px;
+          }
+          .six{
+              height: 100%;
+              font-size: 22px;
+              display: inline-block;
+              box-sizing: border-box;
+              }
+         
+          .footer{
+              height: 100%;
+              font-size: 15%;
+          }
+          .footer2{
+              height: 100%;
+              display:inline-block;
+              font-size: 10%;
+              background-color: black;
+              text-align: center;
+             
+          }
+           
+          .footcontainer{
+              float: none;
+              width: 100%;
+             display: block;
+             text-align: center;
+             font-size: 15%;
+            }
+
+      } 
+     
+     </style>
+</head>
+<body>
+  <div style="background-color: black;">
+    <header >
+    <div>  
+    <ul>
+       
+        <li class="logo" style="float:left;"><img src="https://i.ibb.co/SXVYMWj/logo1.jpg" alt="logo" style="height:80px;width:115px;padding-top: 10px;"> </li>
+        <li style="margin-top: 45px;"><a href="index.html"style="color: white; text-decoration: none;">HOME</a></li>  
+        <li style="margin-top: 45px;"><a href="menu1.html"style=" color: white;text-decoration: none; ">MENU</a></li>
+        <li  style="margin-top: 45px;"><a href="specials.html"style="color: white; text-decoration: none; ">SPECIALS</a></li>
+        
+        <li class="btn" style="margin-top: 35px;float: right;"><button  class="btn1">Download App</button></li>
+ 
+    </ul>
+    </div>
+ </header>
+   <div >
+    <img src="https://i.ibb.co/HhTzDPW/mainres2.jpg" alt="photo" style=" margin-bottom: 15px; width: 100%; height:752px; padding-top: 5px;"></img>
+</div> 
+</div>
+
+
+<div style="background-color: black;">
+ <div class="content">
+    <img  class="img2"src="https://i.ibb.co/d6Y9TQZ/mainres3-1.jpg" alt="photo2"></img>
+     <div class="cont"> "Satisfy your snack attack as The Indian Spoon is now online"  <br>
+         <button class="btn2" >ORDER ONLINE NOW</button>
+    </div> 
+</div>
+</div>
+
+
+
+
+
+<div class="flexcontainer1">
+    <div class="l1"> <br><br>
+        <h2>ABOUT US</h2>
+         <div style=" font-size:45px;font-weight: bold; color: gray;"> A Moments of love delivered on time</div>
+         <div style="font-size: 22px;padding-top: 13px;"> The Indian Spoon is a recently launched restuarant. Currently it was offline due to COVID the consumers were
+             not able to travel to the shop , so to bring ease to our customers we had started online facility as well.
+             We work in a safe manner and deliver happiness at your doorsteps. Safety is our promise for all your meals.
+             Please do not hesitate to reach us any time.
+              </div>
+    </div>
+    <div class="r1"><img src="https://i.ibb.co/bW0ppwW/chef2.jpg" alt="about us" style="height:90%; width:90%;"></div>
+</div>
+
+
+
+<div  class="six"style="background-color: black;">
+    <div style="color:whitesmoke; font-size: 40px; text-align: center;padding-top: 30px;padding-bottom: 30px;">
+        "Calories don’t count during the weekends"
+     </div>
+    
+    <div class="sixcontent">
+    <table>
+        <tr>
+        <td >
+            <div class="container">
+                <img src="https://i.ibb.co/WgG24DJ/pizza.jpg" alt="2">
+                
+                <div class="text">Every meal would be better if it were pizza.</div>
+            
+        </div>
+        </td>
+        <td>
+        <div class="container">
+            <img src="https://i.ibb.co/JFpNsj3/combo.jpg" alt="b">
+            
+            <div class="text">Grab our Special combo offers starting at just 299</div>
+        
+        </div>
+        </td>
+        
+        
+        <td>
+        <div class="container">
+            <img src="https://i.ibb.co/k2bsF4g/starter.jpg" alt="4">
+            
+            <div class="text">Life's too short to say no to starters </div>
+        
+        </div>
+        </td>
+        </tr>
+</table>
+
+<table>
+    <tr>
+    <td >
+        <div class="container">
+            <img src="https://i.ibb.co/X7H26mm/burger.jpg" alt="4">
+            
+            <div class="text">Come for the burger, stay for the fries</div>
+        
+    </div>
+    </td>
+    <td>
+    <div class="container">
+        <img src="https://i.ibb.co/z2Cw4f8/dosa.jpg" alt="5">
+        
+        <div class="text">Special South Indian thali starting just at 199</div>
+    
+    </div>
+    </td>
+    
+    
+    <td>
+    <div class="container">
+        <img src="https://i.ibb.co/Qftnwzx/Pad-Thai-vegetarian-vegetables-udon-noodles-in-a-dark-background-top-view-Vegetarian-food-in-asian-s.jpg" alt="6">
+        
+        <div class="text">As long as there's Chinese food in the world, I'm okay. </div>
+    
+    </div>
+    </td>
+    </tr>
+</table>
+</div>
+</div>
+
+<div class="footer">
+    <div class="footcontainer">
+       <h2 style="padding-top:15px; padding-left:15px;">Contact us to place an order</h2>
+
+        <a href="theindianspoon30@gmail.com" class="fa fa-envelope fa-2x" target="_blank" style="text-decoration: none;font-size: 16px; padding-left:15px;padding-right:15px; padding-bottom:10px;text-align:center;color: white;">-theindianspoon30@gmail.com</a>
+      <br> <div>
+        <a href="#" class="fa fa-phone fa-2x" target="_blank" style="text-decoration: none; padding-left:15px;padding-right:15px;padding-top:8px;font-size: 16px;color: white;">-9999999999</a>  
+       </div>  
+    </div>
+   
+    <div class="footcontainer">
+       <h2 style="padding-top:15px; padding-left:15px;">Services</h2>
+       <p> Order</p>
+       <p> Fast Delivery</p>
+       <p> Track order</p>
+       <p> Cash on Delivery</p>
+    </div>
+
+    <div class="footcontainer">
+        <h2 style="padding-top:15px; padding-left:15px;">For You</h2>
+        <p> Terms and Conditions</p>
+        <p> Refund and Funds </p>
+        <p> Privacy Policy</p>
+        <p> Offer Terms</p>
+     </div>
+
+     <div class="footcontainer">
+        <h2 style="padding-top:15px; padding-left:15px;">Follow us on Social Media</h2>
+<a href="https://www.instagram.com/_theindianspoon"  class="fa fa-instagram fa-2x" target="_blank" style=" text-decoration: none;padding-left:15px;padding-right:15px; color: white;"></a>
+ <a href="#" class="fa fa-whatsapp fa-2x" target="_blank" style=" text-decoration: none;padding-left:15px;padding-right:15px;color: white;"></a>
+     </div>
+    </div>
+
+     <div class="footer2" style="color:white;">Copyright <em>&#169</em> THE INDIAN SPOON | All Rights Reserved </div>
+
+</body>
+</html>
