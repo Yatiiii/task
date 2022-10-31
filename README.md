@@ -1,2 +1,2 @@
 # task
-https://github.com/Yatiiii/task.git
+https://yatiiii.github.io/task/
